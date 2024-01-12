@@ -1,5 +1,5 @@
-# Weather Forecast App✨
-The Weather Forecast App gives you the most accurate world-leading global weather forecast.
+# OTP VERIFICATION App✨
+This app will show you an example of how to build a one-time passcode (OTP) 
 
 ![Cream and Green Simple Photo Sales Marketing Presentation (1)](https://github.com/Prachip9767/otp_verification_app/assets/86509987/3e76a414-afb8-4f9f-aad3-ae97b52cae62)
 
