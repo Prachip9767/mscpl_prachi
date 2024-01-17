@@ -63,6 +63,13 @@ class OtpInputWidget extends StatelessWidget {
               borderSide: BorderSide.none),
         ),
         onChanged: (value) {
+          List<String> otp;
+          otp=value.split('');
+          print(otp);
+          for(var otpNumber in otp){
+            controller.otpControllers[index].text=otpNumber;
+            index++;
+          }
           if (value.length == 1 && index < controller.otpLength - 1) {
             controller.otpFocusNodes[index + 1].requestFocus();
           }
